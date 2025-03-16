@@ -3,7 +3,7 @@ import './App.css'
 import FooterCard from './components/FooterCard'
 import Header from './components/Header'
 import weatherStore from './Store/weatherSore'
-import MainBoard from './components/MainBoard';
+import MainBoard from './components/MainBoard'
 function App() {
 
   return (

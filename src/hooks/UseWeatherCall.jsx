@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { key } from '../utils/constant';
+import { API_KEY } from '../utils/constants';
 
 export const UseWeatherCall = (city) => {
   const [weather, setWeather] = useState(null);
@@ -12,7 +12,7 @@ export const UseWeatherCall = (city) => {
       setError(null);
       try {
         const res = await fetch(
-          `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
         );
 
         if (!res.ok) {

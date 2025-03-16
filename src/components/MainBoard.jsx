@@ -1,6 +1,6 @@
 import React from "react";
 import { UseWeatherCall } from "../hooks/UseWeatherCall";
-import { countries } from "../utils/constant.jsx";
+import { countries } from "../utils/constants";
 import { useSelector } from "react-redux";
 import { FaExclamationTriangle } from 'react-icons/fa';
 

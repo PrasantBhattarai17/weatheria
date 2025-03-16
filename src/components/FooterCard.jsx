@@ -1,6 +1,6 @@
 import React from 'react'
 import { UseWeatherCall } from '../hooks/UseWeatherCall'
-import { countries } from '../utils/constant.jsx';
+import { countries } from '../utils/constants.js';
 
 const FooterCard = () => {
     const {weather:Ldata}=UseWeatherCall("Lisbon");
