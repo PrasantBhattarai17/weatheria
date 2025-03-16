@@ -2,8 +2,8 @@ import { Provider } from 'react-redux'
 import './App.css'
 import FooterCard from './components/FooterCard'
 import Header from './components/Header'
-import MainBoard from './components/mainBoard'
 import weatherStore from './Store/weatherSore'
+import MainBoard from './components/MainBoard';
 function App() {
 
   return (
